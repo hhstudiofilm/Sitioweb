@@ -101,6 +101,25 @@ section {
     text-decoration: none;
     font-size: 20px;
 }
+/* Centrar el formulario */
+.contact form {
+    display: flex;
+    flex-direction: column; /* Campos uno debajo del otro */
+    align-items: center;    /* Centrar horizontalmente */
+    max-width: 500px;       /* Ancho máximo en pantallas grandes */
+    margin: 0 auto;         /* Centrar en el contenedor */
+}
+
+/* Ajustar los campos */
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
