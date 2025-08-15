@@ -5,14 +5,10 @@ body {
     background-color: #111;
     color: white;
 }
-/* Centrar imagen hh.png */
-.gallery .gallery-grid {
-    justify-content: center; /* centra horizontalmente en grid/flex */
-}
-
-.gallery .gallery-grid img {
-    display: block;
-    margin: 0 auto; /* asegura que esté centrada si es imagen individual */
+.logo-gallery .gallery-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Centrar el botón Facebook */
